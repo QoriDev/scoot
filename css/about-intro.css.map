@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAA;EACnB,UAAU,EAAE,kCAAkC,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM;CACzE",
+    "sources": [
+        "../sass/blocks/about-intro.scss"
+    ],
+    "names": [],
+    "file": "about-intro.css"
+}

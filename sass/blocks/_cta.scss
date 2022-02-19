@@ -1,0 +1,82 @@
+.cta {
+    background: url('/img/cta.jpg') no-repeat center center;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        background-image: url("../../cta@2x.jpg");
+    }
+}
+.cta__content {
+    display: flex;
+    padding: 102px 0;
+}
+.cta__title {
+    margin: 0;
+    font-family: "Space Mono", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+.cta__list {
+    @include reset-list;
+    margin-left: 336px;
+}
+.cta__item {
+    margin-right: 18px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:$tablet){
+    .cta{
+        background: url("../../img/cta-tablet.jpg") no-repeat center center;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        background-image: url("../../cta-tablet@2x.jpg");
+    }
+    }
+    .cta__content{
+        padding: 45px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta__title{
+        max-width: 457px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .cta__list{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:$mobile){
+    .cta{
+        background: url('../../img/cta-mobile.jpg') no-repeat center center;
+        @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) { 
+            background-image: url("../../cta-mobile@2x.jpg");
+        }
+    }
+    .cta__title{
+        font-size: 32px;
+        letter-spacing: -1.42857px;
+    }
+
+}

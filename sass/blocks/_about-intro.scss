@@ -1,0 +1,58 @@
+.about-intro{
+    background: url("../../img/about-bac-img.jpg") no-repeat center center;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx){
+            background-image: url("../../img/about-bac-img@2x.jpg 2x");
+    }
+}
+
+.about-intro__desc{
+    padding: 72px 1113px 72px 165px;
+    font-family: "Space Mono", "Arial", sans-serif;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:$tablet){
+    .about__intro{
+        background: url("../../img/about-tablet.jpg");
+        @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx){
+                background-image: url("../../img/about-tabletg@2x.jpg 2x");
+        }
+    }
+
+    .about__intro-desc{
+        padding: 72px 0;
+    }
+}
+
+@media only screen and (max-width:$mobile){
+    .about__intro{
+        background: url('../../img/about-mobile.jpg') no-repeat center center;
+        @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx){
+                background-image: url("../../img/about-mobile@2x.jpg 2x");
+        }
+    }
+    .about-intro__desc{
+        padding: 60px 0;
+    }
+}

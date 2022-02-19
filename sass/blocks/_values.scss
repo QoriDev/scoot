@@ -1,0 +1,112 @@
+.values__title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Space Mono", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+.values__list {
+    @include reset-list;
+    align-items: center;
+    justify-content: space-between;
+}
+.values__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+}
+.values__img {
+    text-align: center;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+.values__div-title {
+    position: relative;
+    margin: 0;
+    margin-top: 87px;
+    margin-bottom: 27px;
+    font-family: "Space Mono","Arial", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    &::after{
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        content: '';
+        background-color: #FCB72B;
+        border-radius: 50%;
+        bottom: 160%;
+        right: 35%;
+    }
+    &-one::before{
+        position: absolute;
+            content: '01';
+            font-family: "Space Mono";
+            font-size: 24px;
+            line-height: 1;
+            text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            bottom: 280%;
+            right: 44%;
+            z-index: 1;
+    }
+    &-two::before{
+            position: absolute;
+            content: '02';
+            font-family: "Space Mono";
+            font-size: 24px;
+            line-height: 1;
+            text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            bottom: 280%;
+            right: 45%;
+            z-index: 1;
+    }
+    &-three::before{
+            position: absolute;
+            content: '03';
+            font-family: "Space Mono";
+            font-size: 24px;
+            line-height: 1;
+            text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            bottom: 280%;
+            right: 45%;
+            z-index: 1;
+    }
+    }
+.values__div-desc {
+    margin: 0;
+    margin-right: 30px;
+    font-family:"Lexend Deca", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+    margin-bottom: 120px;   
+    }
+
+    @media only screen and (max-width:$tablet){
+        .values__title{
+            margin-bottom: 87px;
+        }
+        .values__list{
+            flex-direction: column;
+        }
+        .values__div-desc{ 
+            margin-bottom: 60px;
+            margin-right: 0;
+        }
+    }
