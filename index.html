@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <h1 class="visually-hidden">Scooter rental company</h1>
     <header class="header">
         <div class="container header__container">
             <a class="header__link-logo" href="/">
@@ -61,27 +62,21 @@
             </div>
         </div>
 
-        <section class="catalog">
-            <div class="container">
-                <ol class="catalog__list">
-                    <li class="catalog__item catalog__item-phone">
-                        <h2 class="catalog__title">Locate with app</h2>
-                        <p class="catalog__desc">Use the app to find the nearest scooter to you. We are continuously
-                            placing scooters in the areas with most demand, so one should never be too far away. </p>
-                    </li>
-                    <li class="catalog__item catalog__item-scooter">
-                        <h2 class="catalog__title">Pick your scooter</h2>
-                        <p class="catalog__desc">We show the most important info for the scooters closest to you. So you
-                            know how much charge they have left and can see roughly how much it will cost.</p>
-                    </li>
-                    <li class="catalog__item catalog__item-driver">
-                        <h2 class="catalog__title">Enjoy the ride</h2>
-                        <p class="catalog__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put
-                            on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.
-                        </p>
-                    </li>
-                </ol>
-            </div>
+        <section class="catalog container">
+            <ol class="catalog__list">
+                <li class="catalog__list-item catalog__list-item--application">
+                    <h2 class="catalog__title">Locate with app</h2>
+                    <p class="catalog__desc">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
+                </li>
+                <li class="catalog__list-item catalog__list-item--scoot">
+                    <h2 class="catalog__title">Pick your scooter</h2>
+                    <p class="catalog__desc">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
+                </li>
+                <li class="catalog__list-item catalog__list-item--driver">
+                    <h2 class="catalog__title">Enjoy the ride</h2>
+                    <p class="catalog__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
+                </li>
+            </ol>
         </section>
 
         <section class="menu">
@@ -94,8 +89,7 @@
                                     srcset="img/woman.webp 1x, img/woman@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
                                     srcset="img/woman.webp 1x, img/woman@2x.webp 2x">
-                                <source type="image/webp" width="445" height="445"
-                                    srcset="img/woman.webp 1x, img/woman@2x.webp 2x">
+                                <source type="image/webp" srcset="img/woman.webp 1x, img/woman@2x.webp 2x">
 
                                 <source media="(max-width:719px)" srcset="img/woman.jpg 1x, img/woman@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/woman.jpg 1x, img/woman@2x.jpg 2x">
@@ -121,8 +115,7 @@
                                     srcset="img/city.webp 1x, img/city@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
                                     srcset="img/city.webp 1x, img/city@2x.webp 2x">
-                                <source type="image/webp" width="445" height="445"
-                                    srcset="img/city.webp 1x, img/city@2x.webp 2x">
+                                <source type="image/webp" srcset="img/city.webp 1x, img/city@2x.webp 2x">
 
                                 <source media="(max-width:719px)" srcset="img/city.jpg 1x, img/city@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/city.jpg 1x, img/city@2x.jpg 2x">
@@ -146,8 +139,7 @@
                                     srcset="img/wallet.webp 1x, img/wallet@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
                                     srcset="img/wallet.webp 1x, img/wallet@2x.webp 2x">
-                                <source type="image/webp" width="445" height="445"
-                                    srcset="img/wallet.webp 1x, img/wallet@2x.webp 2x">
+                                <source type="image/webp" srcset="img/wallet.webp 1x, img/wallet@2x.webp 2x">
 
                                 <source media="(max-width:719px)" srcset="img/wallet.jpg 1x, img/wallet@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/wallet.jpg 1x, img/wallet@2x.jpg 2x">
@@ -163,7 +155,7 @@
                                 <a class="main__link menu__link-learn" href="#">Learn More</a>
                             </div>
                         </div>
-                    </li> 
+                    </li>
 
                 </ul>
             </div>
