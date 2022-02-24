@@ -65,16 +65,26 @@
         <section class="catalog container">
             <ol class="catalog__list">
                 <li class="catalog__list-item catalog__list-item--application">
-                    <h2 class="catalog__title">Locate with app</h2>
-                    <p class="catalog__desc">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
+                    <div class="catalog__list-item--wrapper">
+                        <h2 class="catalog__title">Locate with app</h2>
+                        <p class="catalog__desc">Use the app to find the nearest scooter to you. We are continuously
+                            placing scooters in the areas with most demand, so one should never be too far away. </p>
+                    </div>
                 </li>
                 <li class="catalog__list-item catalog__list-item--scoot">
-                    <h2 class="catalog__title">Pick your scooter</h2>
-                    <p class="catalog__desc">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
+                    <div class="catalog__item-wrapper">
+                        <h2 class="catalog__title">Pick your scooter</h2>
+                        <p class="catalog__desc">We show the most important info for the scooters closest to you. So you
+                            know how much charge they have left and can see roughly how much it will cost.</p>
+                    </div>
                 </li>
                 <li class="catalog__list-item catalog__list-item--driver">
-                    <h2 class="catalog__title">Enjoy the ride</h2>
-                    <p class="catalog__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
+                    <div class="catalog__item-wrapper">
+                        <h2 class="catalog__title">Enjoy the ride</h2>
+                        <p class="catalog__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put
+                            on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.
+                        </p>
+                    </div>
                 </li>
             </ol>
         </section>
@@ -84,7 +94,7 @@
                 <ul class="menu__list">
                     <li class="menu__item">
                         <div class="menu__item-content">
-                            <picture>
+                            <picture class="menu__item-content--pic">
                                 <source type="image/webp" media="(max-width-719px)"
                                     srcset="img/woman.webp 1x, img/woman@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
@@ -93,10 +103,11 @@
 
                                 <source media="(max-width:719px)" srcset="img/woman.jpg 1x, img/woman@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/woman.jpg 1x, img/woman@2x.jpg 2x">
-                                <!-- <img class="menu__item-img" src="img/woman.jpg" srcset="img/woman@2x.jpg 2x, img/woman.jpg 1x" alt="woman" width="445" height="445"> -->
+                                <img class="menu__item-img" src="img/woman.jpg"
+                                    srcset="img/woman@2x.jpg 2x, img/woman.jpg 1x" alt="woman" width="445" height="445">
                             </picture>
-                            <img class="menu__item-img" src="img/woman.jpg" alt="woman-pic"
-                                srcset="img/woman@2x.jpg 2x, img/woman.jpg 1x" width="445" height="445">
+                            <!-- <img class="menu__item-img" src="img/woman.jpg" alt="woman-pic"
+                            srcset="img/woman@2x.jpg 2x, img/woman.jpg 1x" width="445" height="445"> -->
                             <div class="menu__content">
                                 <h2 class="menu__content-title">Easy to use
                                     riding telemetry</h2>
@@ -110,7 +121,7 @@
                     </li>
                     <li class="menu__item">
                         <div class="menu__item-content">
-                            <picture>
+                            <picture class="menu__item-content--pic">
                                 <source type="image/webp" media="(max-width-719px)"
                                     srcset="img/city.webp 1x, img/city@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
@@ -119,7 +130,8 @@
 
                                 <source media="(max-width:719px)" srcset="img/city.jpg 1x, img/city@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/city.jpg 1x, img/city@2x.jpg 2x">
-                                <!-- <img class="menu__item-img" src="img/city.jpg" srcset="img/city@2x.jpg 2x, img/city.jpg 1x" alt="city" width="445" height="445"> -->
+                                <!-- <img class="menu__item-img" src="img/city.jpg"
+                                    srcset="img/city@2x.jpg 2x, img/city.jpg 1x" alt="city" width="445" height="445"> -->
                             </picture>
                             <img class="menu__item-img" src="img/city.jpg" alt="woman-pic"
                                 srcset="img/city@2x.jpg 2x, img/city.jpg 1x" width="445" height="445">
@@ -134,7 +146,7 @@
                     </li>
                     <li class="menu__item">
                         <div class="menu__item-content">
-                            <picture>
+                            <picture class="menu__item-content--pic">
                                 <source type="image/webp" media="(max-width-719px)"
                                     srcset="img/wallet.webp 1x, img/wallet@2x.webp 2x">
                                 <source type="image/webp" media="(max-width-1310px)"
@@ -143,7 +155,9 @@
 
                                 <source media="(max-width:719px)" srcset="img/wallet.jpg 1x, img/wallet@2x.jpg">
                                 <source media="(max-width:1310px)" srcset="img/wallet.jpg 1x, img/wallet@2x.jpg 2x">
-                                <!-- <img class="menu__item-img" src="img/wallet.jpg" srcset="img/wallet@2x.jpg 2x, img/wallet.jpg 1x" alt="wallet" width="445" height="445"> -->
+                                <!-- <img class="menu__item-img" src="img/wallet.jpg"
+                                    srcset="img/wallet@2x.jpg 2x, img/wallet.jpg 1x" alt="wallet" width="445"
+                                    height="445"> -->
                             </picture>
                             <img class="menu__item-img" src="img/wallet.jpg" alt="city-pic"
                                 srcset="img/wallet@2x.jpg 2x, img/wallet.jpg 1x" width="445" height="445">
@@ -176,7 +190,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div>  
             </div>
         </section>
     </main>

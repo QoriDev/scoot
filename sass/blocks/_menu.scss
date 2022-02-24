@@ -116,7 +116,7 @@
         }
         &:nth-child(2n)::before{
             left: auto;
-            right: 93%;
+            right: auto;
         }
         &:nth-child(2n) .menu__content{
             margin-left: 0;
@@ -127,6 +127,9 @@
             left: auto;
             right: -62%;
         }
+    }
+    .menu__item-content--pic{
+        flex-shrink: 0;
     }
     .menu__content{
         max-width: 573px;
@@ -140,6 +143,9 @@
 }
 
 @media only screen and (max-width:$mobile){
+    .menu__content{
+        text-align: center
+    }
     .menu__item{
         &::before{
             display: none;
@@ -156,5 +162,9 @@
         &:nth-child(2n)::after{
             left: -170%;
         }
+    }
+    .menu__item-img{
+        width: 311px;
+        height: 311px;
     }
 }

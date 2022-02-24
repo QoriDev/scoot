@@ -99,8 +99,8 @@
     }
     .intro__desc{
         max-width: 573px;
+        margin: 0;
         margin-bottom: 46px;
-        margin-left: 17px;
         &::before{
             display: none;
         }
@@ -108,7 +108,7 @@
             display: none;
         }
     }
-    .intro__link{
+    .intro__main-link{
         margin-left: 0;
     }
 }
@@ -126,6 +126,7 @@
             background-image: url("../../img/intro-bg-mobile@2x.jpg 2x");
     }
     }
+
     .intro__content::before{
         top:75%;
         right: 75%;
